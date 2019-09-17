@@ -1,5 +1,7 @@
-use compileall script to compile all the files at once
-grading script and compileall script will need to be compiled with chmod+x before being run
+grading script and compileall script will need to be compiled with chmod+x before running
 
-//please please please be generous with the 10 point grading if I do well on this and the final I might actually still pass the class
-//all tests should pass except for the error about otp_enc.c connecting to otp_dec_d.c
+In this assignment, you will be creating five small programs that encrypt and decrypt information using a one-time pad-like system. I believe that you will find the topic quite fascinating: one of your challenges will be to pull yourself away from the stories of real-world espionage and tradecraft that have used the techniques you will be implementing.
+
+Your program will encrypt and decrypt plaintext into ciphertext, using a key, in exactly the same fashion as above, except it will be using modulo 27 operations: your 27 characters are the 26 capital letters, and the space character ( ). All 27 characters will be encrypted and decrypted as above.
+
+To do this, you will be creating five small programs in C. Two of these will function like "daemons" (but aren't actually daemons), and will be accessed using network sockets. Two will use the daemons to perform work, and the last is a standalone utility.
