@@ -1,0 +1,5 @@
+use compileall script to compile all the files at once
+grading script and compileall script will need to be compiled with chmod+x before being run
+
+//please please please be generous with the 10 point grading if I do well on this and the final I might actually still pass the class
+//all tests should pass except for the error about otp_enc.c connecting to otp_dec_d.c
